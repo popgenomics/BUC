@@ -1,0 +1,82 @@
+# removed Gephyrocapsa_oceanica: only *.cds
+# files are missing for the following species:
+# Lamellibrachia_sp
+# Lamellibrachia_sp1
+# Riftia_pachyptila
+
+# 1) adapte some file names, names ORF_*.fasta while we want *.orf
+cd /home/croux/Documents/BUC_data_OLD_cleaned
+for i in $(find -name "ORF_*"); do
+	x=$(echo $i | cut -d"/" -f2 | cut -d"/" -f1)
+	echo $x
+	mv ${x}/ORF_${x}.fasta ${x}/${x}#solo200.orf
+done
+
+# 2) clean the names of sequences of the *.orf files
+# sequences are named: >Contig12 [463 - 891] (Length:429)
+# while we want: >Contig12
+for i in $(find -name "*.orf"); do
+	/home/croux/Documents/BUC_data_OLD_cleaned/scripts/clean_popPhylORF.py $i
+done
+
+# 3) estimate de codon usage bias
+# provide multilocus estimates
+for i in $(find -name "*.new"); do
+	species=$(echo $i | cut -d'/' -f2)
+	data=$(echo $i | cut -d'/' -f3)
+	echo $species " " $data
+	cd $species
+	cubt <<<$data
+	cd /home/croux/Documents/BUC_data_OLD_cleaned
+done
+# @ ---> Nucleotide other than ATGC is present in Input Sequence file
+# # ---> NO terminating Stop Codon is present in Input Sequence file
+# $ ---> Internal Stop Codon is present in Input Sequence file
+# + ---> Extra Nucleotide in ORF in the Input Sequence file
+
+
+# 4) compute GCcontent for all genes at utr, utr3 and utr5 positions
+for i in $(cat list_of_species.txt | awk '{print $1}'); do
+	cd $i
+	utrA=$(ls *utr3*)
+	utrB=$(ls *utr5*)
+	echo $utrA " " $utrB
+	/home/croux/Documents/BUC_data_OLD_cleaned/scripts/UTR.py $utrA $utrB
+	cd /home/croux/Documents/BUC_data_OLD_cleaned
+done
+
+# 5) compute GCcontent at positions 1, 2 and 3
+for i in $(cat list_of_species.txt | awk '{print $1}'); do
+	cd $i
+	orf=$(ls *.new*)
+	cov=$(ls *cov*)
+	csv=$(ls *.csv*)
+	echo $orf " " $cov " " $csv
+	/home/croux/Documents/BUC_data_OLD_cleaned/scripts/ORF.py $orf $cov $csv
+	cd /home/croux/Documents/BUC_data_OLD_cleaned
+done
+
+# 6) Merge statistics about ORF and UTR + correction of the coverage
+for i in $(cat list_of_species.txt | awk '{print $1}'); do
+	echo $i 
+	cd $i
+	/home/croux/Documents/BUC_data_OLD_cleaned/scripts/summary.R
+	cd /home/croux/Documents/BUC_data_OLD_cleaned
+done
+
+# 7) statistics in R about isochores (GC3_std; corr_GC3_GCutr) and about BUC (ENc; ENcp; etc ...)
+cat list_of_species.txt | grep -v NCBI | while read LINE; do
+	x=$(echo $LINE | cut -d$'\t' -f1)
+	y=$(echo $LINE | cut -d$'\t' -f2)
+	echo $x $y 
+	cd $x
+	/home/croux/Documents/BUC_data_OLD_cleaned/scripts/summary.py $x $y
+	cd /home/croux/Documents/BUC_data_OLD_cleaned
+done
+
+
+# 8)
+cat Abatus_agassizi/output_final_2.txt | grep NCBI >final.txt
+cat */output_final_2.txt | grep -v NCBI >>final.txt
+
+
