@@ -1,0 +1,267 @@
+(
+(
+(
+'Leptogorgia sarmentosa':4,
+(
+'Eunicella verrucosa':4,
+'Eunicella cavolinii':4
+)Eunicella:4
+)Gorgoniidae:4,
+(
+(
+(
+(
+'Ophioderma panamensis':4,
+'Ophioderma longicauda':4
+)Ophioderma:4,
+(
+'Schizocosmus abatoides':4,
+(
+'Abatus agassizii':4,
+'Abatus cordatus':4
+)Abatus:4,
+(
+'Echinocardium mediterraneum':4,
+'Echinocardium cordatum':4
+)Echinocardium:4
+)Spatangoida:4
+)Eleutherozoa:4,
+(
+(
+(
+'Ciona cf. intestinalis B AZ-2012':4,
+'Ciona cf. intestinalis A AZ-2012':4
+)Ciona:4,
+(
+'Cystodytes aucklandicus':4,
+'Cystodytes dellechiajei':4
+)Cystodytes:4
+)Enterogona:4,
+(
+(
+'Hippocampus hippocampus':4,
+'Hippocampus guttulatus':4,
+'Hippocampus kuda':4
+)Hippocampus:4,
+(
+(
+'Monodelphis domestica':4,
+(
+'Tupaia belangeri':4,
+(
+'Lepus granatensis':4,
+(
+(
+'Myodes glareolus':4,
+(
+'Microtus arvalis':4,
+'Microtus agrestis':4
+)Microtus:4
+)Arvicolinae:4,
+'Mus musculus':4
+)Muroidea:4
+)Glires:4,
+(
+(
+(
+(
+'Homo sapiens':4,
+'Pan troglodytes':4
+)Homininae:4,
+(
+'Macaca mulatta':4,
+'Chlorocebus aethiops':4
+)Cercopithecinae:4
+)Catarrhini:4,
+'Callithrix jacchus':4
+)Simiiformes:4,
+(
+'Daubentonia madagascariensis':4,
+(
+'Propithecus coquereli':4,
+(
+'Varecia variegata variegata':4,
+(
+'Eulemur mongoz':4,
+'Eulemur coronatus':4
+)Eulemur:4
+)Lemuridae:4
+)Lemuriformes:4,
+(
+'Nycticebus coucang':4,
+'Galago senegalensis':4
+)Lorisiformes:4
+)Strepsirrhini:4
+)Primates:4
+)Euarchontoglires:4
+)Theria:4,
+(
+(
+'Chelonoidis nigra':4,
+(
+'Emys orbicularis':4,
+'Trachemys scripta':4
+)Emydidae:4
+)Testudinoidea:4,
+(
+'Cyanistes caeruleus':4,
+(
+(
+'Eudyptes filholi':4,
+'Eudyptes chrysocome moseleyi':4
+)Eudyptes:4,
+'Aptenodytes patagonicus':4
+)Spheniscidae:4
+)Neognathae:4
+)Archelosauria:4
+)Amniota:4
+)Euteleostomi:4
+)Chordata:4
+)Deuterostomia:4,
+(
+(
+(
+(
+(
+'Allolobophora chlorotica L4':4,
+'Allolobophora chlorotica L2':4,
+'Allolobophora chlorotica L1':4
+)Allolobophora:4,
+'Aporrectodea icterica':4
+)Lumbricinae:4,
+(
+'Pectinaria koreni':4,
+'Pectinaria regalis':4
+)Pectinaria:4
+)Annelida:4,
+(
+'Ramphogordius lacteus':4,
+(
+'Lineus ruber':4,
+'Lineus longissimus':4
+)Lineus:4
+)Lineidae:4,
+(
+(
+(
+'Bostrycapulus aculeatus':4,
+(
+'Crepidula fornicata':4,
+'Crepidula plana':4
+)Crepidula:4
+)Calyptraeidae:4,
+(
+'Physella gyrina':4,
+'Physella acuta':4
+)Physella:4
+)Gastropoda:4,
+(
+'Metasepia pfefferi':4,
+'Sepiella japonica':4,
+'Sepia officinalis':4
+)Sepiidae:4,
+(
+(
+'Ostrea stentina':4,
+'Ostrea chilensis':4,
+'Ostrea edulis':4
+)Ostrea:4,
+(
+'Mytilus galloprovincialis':4,
+'Mytilus trossulus':4,
+'Mytilus edulis':4,
+'Mytilus californianus':4
+)Mytilus:4
+)Pteriomorphia:4
+)Mollusca:4
+)Lophotrochozoa:4,
+(
+(
+(
+(
+'Reticulitermes grassei':4,
+'Reticulitermes lucifugus':4,
+'Reticulitermes flavipes':4
+)Reticulitermes:4,
+(
+(
+(
+'Thymelicus sylvestris':4,
+'Thymelicus lineola':4
+)Thymelicus:4,
+(
+(
+'Mellicta plotina':4,
+'Mellicta parthenoides':4,
+'Mellicta athalia':4
+)Mellicta:4,
+(
+'Melitaea abbas':4,
+'Melitaea cinxia':4,
+'Melitaea didyma':4
+)Melitaea:4
+)Melitaeina:4
+)Obtectomera:4,
+(
+(
+'Halictus sexcinctus':4,
+'Halictus scabiosae':4,
+'Halictus simplex':4
+)Halictus:4,
+(
+(
+'Camponotus aethiops':4,
+'Camponotus ligniperdus':4
+)Camponotus:4,
+(
+'Pheidole pallidula':4,
+(
+'Messor capitatus':4,
+'Messor barbarus':4,
+'Messor structor':4
+)Messor:4
+)Pheidolini:4
+)Formicidae:4
+)Aculeata:4,
+(
+'Culex hortensis':4,
+(
+'Culex torrentium':4,
+'Culex pipiens':4
+)Culex:4
+)Culex:4
+)Endopterygota:4
+)Neoptera:4,
+(
+(
+(
+'Necora puber':4,
+'Liocarcinus depurator':4,
+'Carcinus aestuarii':4
+)Portunoidea:4,
+(
+'Porcellio dilatatus petiti':4,
+(
+'Armadillidium nasatum':4,
+'Armadillidium vulgare':4
+)Armadillidium:4
+)Crinocheta:4
+)Eumalacostraca:4,
+(
+'Artemia tibetiana':4,
+'Artemia sinica':4,
+'Artemia salina':4,
+'Artemia franciscana':4
+)Artemia:4
+)Crustacea:4
+)Pancrustacea:4,
+(
+'Caenorhabditis brenneri':4,
+'Caenorhabditis elegans':4
+)Caenorhabditis:4
+)Ecdysozoa:4
+)Protostomia:4
+)Bilateria:4
+)Eumetazoa:4,
+'Emiliania huxleyi':4
+)Eukaryota:4;

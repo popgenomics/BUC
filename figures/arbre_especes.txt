@@ -1,0 +1,104 @@
+Abatus agassizii
+Abatus cordatus
+Allolobophora chlorotica L1
+Allolobophora chlorotica L2
+Allolobophora chlorotica L4
+Aporrectodea icterica
+Aptenodytes patagonicus
+Armadillidium nasatum
+Armadillidium vulgare
+Artemia franciscana
+Artemia salina
+Artemia sinica
+Artemia tibetiana
+Bostrycapulus aculeatus
+Caenorhabditis brenneri
+Caenorhabditis elegans
+Callithrix jacchus
+Camponotus aethiops
+Camponotus ligniperdus
+Carcinus aestuarii
+Chelonoidis nigra
+Chlorocebus aethiops
+Ciona cf. intestinalis A AZ-2012
+Ciona cf. intestinalis B AZ-2012
+Crepidula fornicata
+Crepidula plana
+Culex hortensis
+Culex pipiens
+Culex torrentium
+Cystodytes dellechiajei
+Cystodytes aucklandicus
+Daubentonia madagascariensis
+Echinocardium cordatum
+Echinocardium mediterraneum
+Emiliania huxleyi
+Emys orbicularis
+Eudyptes filholi
+Eudyptes chrysocome moseleyi
+Eulemur coronatus
+Eulemur mongoz
+Eunicella cavolinii
+Eunicella verrucosa
+Galago senegalensis
+Halictus scabiosae
+Halictus sexcinctus
+Halictus simplex
+Hippocampus guttulatus
+Hippocampus hippocampus
+Hippocampus kuda
+Homo sapiens
+Leptogorgia sarmentosa
+Lepus granatensis
+Lineus lacteus
+Lineus longissimus
+Lineus ruber
+Liocarcinus depurator
+Macaca mulatta
+Melitaea abbas
+Melitaea cinxia
+Melitaea didyma
+Melitaea parthenoides
+Mellicta athalia
+Mellicta plotina
+Messor barbarus
+Messor capitatus
+Messor structor
+Metasepia pfefferi
+Microtus agrestis
+Microtus arvalis
+Myodes glareolus
+Monodelphis domestica
+Mus musculus
+Mytilus californianus
+Mytilus edulis
+Mytilus galloprovincialis
+Mytilus trossulus
+Necora puber
+Nycticebus coucang
+Ophioderma longicauda
+Ophioderma panamensis
+Ostrea chilensis
+Ostrea edulis
+Ostreola stentina
+Pan troglodytes
+Cyanistes caeruleus
+Pectinaria koreni
+Pectinaria regalis
+Pheidole pallidula
+Physella acuta
+Physella gyrina
+Porcellio dilatatus petiti
+Propithecus coquereli
+Reticulitermes flavipes
+Reticulitermes grassei
+Reticulitermes lucifugus
+Sepia officinalis
+Sepiella japonica
+Thymelicus lineola
+Thymelicus sylvestris
+Trachemys scripta
+Schizocosmus abatoides
+Tupaia belangeri
+Varecia variegata variegata
+
