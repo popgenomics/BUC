@@ -1,0 +1,57 @@
+                         Measuring Codon Usage Bias
+                                   by
+          
+             Siddartha Sankar Satapathy and Ajit Kumar Sahoo
+           Deapartment of Computer Science & Engineering 
+                  Tezpur University,ASSAM,INDIA
+          http://agnigarh.tezu.ernet.in/~ssankar/cub.php
+
+How to use the tool:
+-------------------
+For Linux 32/64 bit system
+ We are providing the program as a executable named as 'cubt'. 
+ This executable code as well as the input gene sequence file (in FASTA format) 
+ are required to be in same directory. To run this program:
+ Step 1: Type ./cubt in the command prompt($) of your terminal
+ Step 2: Enter the input file name, when the program ask for the same. 
+ Step 3: The output file containg all the measures of CUB will be created 
+         as a .csv file. The .csv file can be viewed in any text editor/Microsoft Excel.
+         
+
+Input file Format:
+------------------
+At present the program can only accept input file in FASTA format.
+A FASTA file with multiple sequences is shown as below as an example.
+----------------------------------------------------------------
+>Ecol_K12_MG1655:|1|thrL
+atgaaacgcattagcaccaccattaccaccaccatcaccattaccacaggtaacggtgcg
+ggctga
+>Ecol_K12_MG1655:|20|mokC
+atgctgaacacatgtagagtgcctcttactgaccgtaaggtcaaggagaagagagcaatg
+aagcagcataaggcgatgattgtcgccctgatcgtcatctgtatcaccgccgtagtggcg
+gcgctggtaacgagaaaagacctctgtgaggttcacatccgaactggccagacggaggtt
+gctgttttcacggcttacgaatccgagtaa
+>Ecol_K12_MG1655:|21|hokC
+atgaagcagcataaggcgatgattgtcgccctgatcgtcatctgtatcaccgccgtagtg
+gcggcgctggtaacgagaaaagacctctgtgaggttcacatccgaactggccagacggag
+gttgctgttttcacggcttacgaatccgagtaa
+----------------------------------------------------------------
+
+Output file Format:
+------------------
+The output file created as  .csv format 
+in the current folder.
+
+The Details description about the methods used in this tool are avilable in 
+ web site   (http://agnigarh.tezu.ernet.in/~ssankar/cub.php)
+
+For any Query related to this tool, kindly email to ssankar@tezu.ernet.in
+
+
+ 
+ 
+
+
+
+
+   
