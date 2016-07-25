@@ -8,7 +8,7 @@ each directory contains two output files:
 
 the "./final_output.txt" file contains 83 statistics measured for 103 species:
 	dataset: name of the directory
-	NCBIname: NCBI names corresponding to the investigated species (spaces are coded by '__')
+	NCBIname: NCBI names corresponding to the investigated species
 
 	nLoci: number of retained loci (= contigs)
 	Ltot: length of the coding frame for each loci
