@@ -7,7 +7,10 @@ each directory contains two output files:
  
 
 The "./final_output.txt" file contains 83 statistics measured for 103 species.
-Can be read in R as follows: x = read.table("final_output.txt", h=T, sep="\t")
+Can be read in R as follows:
+
+	x = read.table("final_output.txt", h=T, sep="\t")
+
 Contains:
 	dataset: name of the directory
 	NCBIname: NCBI names corresponding to the investigated species
