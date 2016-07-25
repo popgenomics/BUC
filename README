@@ -1,8 +1,12 @@
 BUC project using the popPhyl dataset.
 
-each directory contains two output files: describing statistics for each loci and summarizing statistics for the whole species
 
-the "final_output.txt" file contains 83 statistics measured for 103 species:
+each directory contains two output files:
+	*/output_summarized.txt: describes statistics measured for each loci.
+	*/output_final_2.txt: describes statistics from the file output_summarized.txt as well as some correlations between some of them. 
+
+
+the "./final_output.txt" file contains 83 statistics measured for 103 species:
 	dataset: name of the directory
 	NCBIname: NCBI names corresponding to the investigated species
 
