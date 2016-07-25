@@ -5,12 +5,14 @@ each directory contains two output files: describing statistics for each loci an
 the "final_output.txt" file contains 83 statistics measured for 103 species:
 	dataset: name of the directory
 	NCBIname: NCBI names corresponding to the investigated species
+
 	nLoci: number of retained loci (= contigs)
 	Ltot: length of the coding frame for each loci
+
 	GCtot: %GC for each loci
 	GC12: %GC at positions 1 and 2 for each loci
 	GC3: %GC at third position for each loci
-	GCutr: %GC in UTR regions for each loci
+	GCutr: %GC in UTR regions for each loci (utr3 and utr3: %GC if more than 20 nucl at the UTR3 and UTR5 positions respectively. utr if more than 20 nucl after concatenating UTR3 + UTR5
 
 	_avg = average from the observed loci
 	_std = standard deviation over the observed loci
@@ -25,7 +27,8 @@ the "final_output.txt" file contains 83 statistics measured for 103 species:
 	NcJN = Effective number of codons; estimated by using John Novembre's code ENCprime (ENc)
 	NcpJN = Effective number of codons by accounting for background nucleotide composition; estimated by using "ENCprime" (ENc')
 	ENccubt = ENc calculated by using Satapathy and Sahoo's code "cub"
-	ENcPcubt = ENc' calculated by using Satapathy and Sahoo's code "cub" (ENc')
+	ENcPcubt = ENc' calculated by using "cub" (ENc')
 	ENcFDScubt = ENc calculated for amino acids having 4 synonymous codons. Values range from 8 to 32; estimated by using "cub"
 	ENcPFDScubt = ENc' calculated for amino acids having 4 synonymous codons. Values range from 8 to 32; estimated by using "cub"
 	Umcubt = Um(g) is an estimation of nucleotide frequency at 4 fould-fold degenerated sites
+
