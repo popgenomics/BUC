@@ -3,10 +3,12 @@ BUC project using the popPhyl dataset.
 
 each directory contains two output files:
 	*/output_summarized.txt: describes statistics measured for each loci.
-	*/output_final_2.txt: contains averaged statistics found in output_summarized.txt, and correlations between some pairs of statistics. 
+	*/output_final_2.txt: contains averaged statistics found in output_summarized.txt, and correlations between some pairs of statistics.
+ 
 
-
-the "./final_output.txt" file contains 83 statistics measured for 103 species:
+The "./final_output.txt" file contains 83 statistics measured for 103 species.
+Can be read in R as follows: x = read.table("final_output.txt", h=T, sep="\t")
+Contains:
 	dataset: name of the directory
 	NCBIname: NCBI names corresponding to the investigated species
 
