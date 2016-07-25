@@ -1,0 +1,31 @@
+BUC project using the popPhyl dataset.
+
+each directory contains two output files: describing statistics for each loci and summarizing statistics for the whole species
+
+the "final_output.txt" file contains 83 statistics measured for 103 species:
+	dataset: name of the directory
+	NCBIname: NCBI names corresponding to the investigated species
+	nLoci: number of retained loci (= contigs)
+	Ltot: length of the coding frame for each loci
+	GCtot: %GC for each loci
+	GC12: %GC at positions 1 and 2 for each loci
+	GC3: %GC at third position for each loci
+	GCutr: %GC in UTR regions for each loci
+
+	_avg = average from the observed loci
+	_std = standard deviation over the observed loci
+
+	r_ = Pearson's correlation coefficient
+	rho_ = Spearman's correlation coefficient
+	tau_ = Kendall's correlation coefficient
+
+	nCountedReads = mean number of mapped reads for each expressed loci
+	CorrectedExpression = mean number of mapped reads corrected by the %GC at positions 1 and 2
+
+	NcJN = Effective number of codons; estimated by using John Novembre's code ENCprime (ENc)
+	NcpJN = Effective number of codons by accounting for background nucleotide composition; estimated by using "ENCprime" (ENc')
+	ENccubt = ENc calculated by using Satapathy and Sahoo's code "cub"
+	ENcPcubt = ENc' calculated by using Satapathy and Sahoo's code "cub" (ENc')
+	ENcFDScubt = ENc calculated for amino acids having 4 synonymous codons. Values range from 8 to 32; estimated by using "cub"
+	ENcPFDScubt = ENc' calculated for amino acids having 4 synonymous codons. Values range from 8 to 32; estimated by using "cub"
+	Umcubt = Um(g) is an estimation of nucleotide frequency at 4 fould-fold degenerated sites
