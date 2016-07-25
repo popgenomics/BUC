@@ -24,8 +24,8 @@ def correlation(x,y):
 def stat(x):
 	return([nanmean(x), nanstd(x)])
 
-orfFile = "output_summarized.txt"
 
+orfFile = "output_summarized.txt"
 
 orf = {}
 input = open(orfFile, "r")
@@ -34,7 +34,6 @@ header = i.strip().split()
 
 for i in header:
 	orf[i] = []
-
 
 for i in input:
 	i = i.strip().split("\t")

@@ -1,3 +1,5 @@
+git push -u origin master 
+
 # removed Gephyrocapsa_oceanica: only *.cds
 # files are missing for the following species:
 # Lamellibrachia_sp
@@ -54,6 +56,13 @@ for i in $(cat list_of_species.txt | awk '{print $1}'); do
 	echo $orf " " $cov " " $csv
 	/home/croux/Documents/BUC_data_OLD_cleaned/scripts/ORF.py $orf $cov $csv
 	cd /home/croux/Documents/BUC_data_OLD_cleaned
+done
+
+# 5b) run Seqcount and ENCprime written by John Novembre
+for i in $(cat list_of_species.txt| grep -v dataset | awk '{print $1}'); do                                  [ 9:13]
+cd $i
+/home/croux/Documents/BUC_data_OLD_cleaned/scripts/ENCp_JohnNovembre.py *.orf.new
+cd ..
 done
 
 # 6) Merge statistics about ORF and UTR + correction of the coverage

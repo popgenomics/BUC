@@ -1,14 +1,17 @@
 #!/usr/bin/Rscript
-x = read.table("output_GC_UTR.txt",h=T)
-y = read.table("output_GC_ORF.txt",h=T)
+x = read.table("output_GC_UTR.txt", h=T)
+y = read.table("output_GC_ORF.txt", h=T)
+z = read.table("output_ENCprime_JoNo.txt", h=T)
 
-z = merge(y,x,by.x=1,by.y=1)
+res = merge(y, x, by.x=1, by.y=1)
 
-modL = loess(as.numeric(z$nReads)~as.numeric(z$GC12))
+modL = loess(as.numeric(res$nReads)~as.numeric(res$GC12))
 
 GCcorrected_expression = residuals(modL)
 
-z = cbind(z, GCcorrected_expression)
+res = cbind(res, GCcorrected_expression)
 
-write.table(z, col.names=T, row.names=F, quote=F, file="output_summarized.txt", sep="\t", na = "nan")
+res = merge(res, z, by.x=1, by.y=1)
+
+write.table(res, col.names=T, row.names=F, quote=F, file="output_summarized.txt", sep="\t", na = "nan")
 

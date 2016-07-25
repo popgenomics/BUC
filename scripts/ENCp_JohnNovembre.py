@@ -43,9 +43,14 @@ for i in range(0, nLocus, step):
 	command1 = "SeqCount -c {0} {1}".format(tmpFile, nLocusTMP) 
 	command2 = "SeqCount -n {0} {1}".format(tmpFile, nLocusTMP)
 	command3 = "ENCprime {0}.codcnt {0}.acgtfreq 1 ExResults_{0} 1 -q".format(tmpFile)
-	os.system(command1)
-	os.system(command2)
-	os.system(command3)
+	testCommand1 = -1
+	testCommand2 = -1
+	testCommand3 = -1
+	testCommand1 = os.system(command1)
+	testCommand2 = os.system(command2)
+	testCommand3 = os.system(command3)
+	if testCommand1 != 0 or testCommand2 != 0 or testCommand3 != 256:
+		continue
 	acgtfile = "tmp_{0}.fas.acgtfreq".format(cnt)
 	input = open(acgtfile, "r")
 	for k in input:
