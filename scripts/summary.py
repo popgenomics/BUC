@@ -19,10 +19,10 @@ def correlation(x,y):
 	r, p = stats.pearsonr(a, b)
 	rho, p = stats.spearmanr(a, b)
 	tau, p = stats.kendalltau(a, b)
-	return([r, rho, tau])
+	return([round(r, 5), round(rho, 5), round(tau, 5)])
 	
 def stat(x):
-	return([nanmean(x), nanstd(x)])
+	return([round(nanmean(x), 5), round(nanstd(x), 5)])
 
 
 orfFile = "output_summarized.txt"
@@ -51,6 +51,7 @@ nLoci = len(orf["loci"])
 Ltot = stat(orf["Ltot"])
 GC = stat(orf["GCtot"])
 GC3 = stat(orf["GC3"])
+GC12 = stat(orf["GC12"])
 GCutr = stat(orf["GCutr"])
 
 #nReads_GC12 = correlation(orf["nReads"], orf["GC12"])
@@ -67,24 +68,24 @@ GCutr = stat(orf["GCutr"])
 res = "dataset\tNCBIname\tnLoci\t"
 res2 = dataset + "\t" + NCBI + "\t" + str(nLoci) + "\t"
 
-for i in ["Ltot", "GCtot", "GC3", "GCutr"]:
+for i in ["Ltot", "GCtot", "GC12", "GC3", "GCutr"]:
 	res2 += "\t".join([str(k) for k in stat(orf[i])]) + "\t"
 	for j in ["avg", "std"]:
 		res = res + "{0}\t".format(i + "_" + j)
 
 
-for i in ["GC12", "GC3", "GCutr", "ENc_cubt", "ENc_cubt", "ENcP_cubt", "ENcFDS_cubt", "ENcPFDS_cubt", "Um_cubt", "Ltot", "nReads"]:
+for i in ["GC12", "GC3", "GCutr", "Nc_JN", "Ncp_JN", "ENc_cubt", "ENcP_cubt", "ENcFDS_cubt", "ENcPFDS_cubt", "Um_cubt", "Ltot", "nReads"]:
 	for j in ["r", "rho", "tau"]:
-		res += "{0}.expression_{1}\t".format(j, i.split("_")[0])
+		res += "{0}_CorrectedExpression_{1}\t".format(j, "".join(i.split("_")))
 	res2 += "\t".join([ str(k) for k in correlation(orf["GCcorrected_expression"], orf[i])]) + "\t"
 
 
-for i in ["GC12", "GC3", "GCutr", "ENc_cubt", "ENc_cubt", "ENcP_cubt", "ENcFDS_cubt", "ENcPFDS_cubt", "Um_cubt", "Ltot"]:
+for i in ["GC12", "GC3", "GCutr", "Nc_JN", "Ncp_JN", "ENc_cubt", "ENcP_cubt", "ENcFDS_cubt", "ENcPFDS_cubt", "Um_cubt", "Ltot"]:
 	for j in ["r", "rho", "tau"]:
-		res += "{0}.nReads_{1}\t".format(j, i.split("_")[0])
+		res += "{0}_nCountedReads_{1}\t".format(j, "".join(i.split("_")))
 	res2 += "\t".join([ str(k) for k in correlation(orf["nReads"], orf[i])]) + "\t"
 
-res += "r.GC3_GCutr\trho.GC3_GCutr\ttau.GC3_GCutr\n"
+res += "r_GC3_GCutr\trho_GC3_GCutr\ttau_GC3_GCutr\n"
 res2 += "\t".join([ str(k) for k in correlation(orf["GC3"], orf["GCutr"])]) + "\n"
 
 outfile = open("output_final_2.txt", "w")
