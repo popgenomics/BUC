@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Pheidole_pallidula	Pheidole pallidula	8321	0.45824	0.07567	0.44417	0.0618	0.48639	0.132	0.39571	0.08706	0.39713	0.23137	0.04667	0.23469	0.02544	0.2355	-0.13661

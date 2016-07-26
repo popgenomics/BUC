@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Hippocampus_kuda	Hippocampus kuda	21994	0.53917	0.0573	0.48866	0.05126	0.64027	0.11937	0.44203	0.07284	0.2619	0.09728	-0.03852	0.13156	-0.07443	0.1211	-0.01576

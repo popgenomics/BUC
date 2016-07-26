@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Lineus_ruber2	Lineus ruber	26549	0.46908	0.03707	0.45661	0.04507	0.49405	0.08115	0.40411	0.05839	0.11489	0.07745	-0.0399	0.0847	-0.0522	0.09007	-0.08838

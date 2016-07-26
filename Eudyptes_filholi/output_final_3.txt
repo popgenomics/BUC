@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Eudyptes_filholi	Eudyptes filholi	6640	0.48357	0.07374	0.46896	0.05586	0.51283	0.1538	0.41149	0.09031	0.5735	0.05283	0.01342	0.05085	-0.04806	0.05643	-0.02142

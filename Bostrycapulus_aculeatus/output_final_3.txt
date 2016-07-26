@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Bostrycapulus_aculeatus	Bostrycapulus aculeatus	5286	0.51154	0.04148	0.48184	0.05225	0.57105	0.09716	0.40523	0.07197	0.09991	0.19707	-0.17501	0.26665	-0.20033	0.2203	-0.073

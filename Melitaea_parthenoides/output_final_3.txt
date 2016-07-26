@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Melitaea_parthenoides	Mellicta parthenoides	7751	0.41055	0.06132	0.42536	0.05554	0.38088	0.11617	0.28571	0.07926	0.17263	0.24671	0.02452	0.20065	-0.08112	0.1944	-0.07692

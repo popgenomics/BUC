@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Armadillidium_nasatum	Armadillidium nasatum	15722	0.38672	0.04428	0.42547	0.05339	0.30909	0.06914	0.29461	0.08945	0.13417	0.16699	-0.05182	0.16888	-0.09338	0.15895	-0.13526

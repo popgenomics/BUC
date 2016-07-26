@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Artemia_sinica	Artemia sinica	12607	0.41094	0.03604	0.44427	0.0502	0.34413	0.05393	0.32768	0.074	0.0655	0.26116	-0.06773	0.27504	-0.05048	0.27216	-0.19667

@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Pan_troglodytes	Pan troglodytes	9738	0.4849	0.07063	0.46858	0.05702	0.51765	0.15054	0.44139	0.09958	0.54682	0.25606	-0.09665	0.36072	-0.0794	0.32424	-0.17621

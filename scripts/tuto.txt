@@ -73,7 +73,7 @@ for i in $(cat list_of_species.txt | awk '{print $1}'); do
 	cd /home/croux/Documents/BUC_data_OLD_cleaned
 done
 
-# 7) statistics in R about isochores (GC3_std; corr_GC3_GCutr) and about BUC (ENc; ENcp; etc ...)
+# 7) statistics in python about isochores (GC3_std; corr_GC3_GCutr) and about BUC (ENc; ENcp; etc ...)
 cat list_of_species.txt | grep -v NCBI | while read LINE; do
 	x=$(echo $LINE | cut -d$'\t' -f1)
 	y=$(echo $LINE | cut -d$'\t' -f2)
@@ -82,6 +82,17 @@ cat list_of_species.txt | grep -v NCBI | while read LINE; do
 	/home/croux/Documents/BUC_data_OLD_cleaned/scripts/summary.py $x $y
 	cd /home/croux/Documents/BUC_data_OLD_cleaned
 done
+
+# 7b) statistics in R about isochoes and BUC
+cat list_of_species.txt | grep -v NCBI | while read LINE; do
+	x=$(echo $LINE | cut -d$'\t' -f1)
+	y=$(echo $LINE | cut -d$'\t' -f2)
+	echo $x $y 
+	cd $x
+	/home/croux/Documents/BUC_data_OLD_cleaned/scripts/statistics.R dataset=${x} NCBI=${y}
+	cd /home/croux/Documents/BUC_data_OLD_cleaned
+done
+
 
 
 # 8)

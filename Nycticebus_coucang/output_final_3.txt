@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Nycticebus_coucang	Nycticebus coucang	13290	0.46998	0.0632	0.46047	0.05438	0.48906	0.13067	0.42446	0.08893	0.45901	0.27577	-0.05075	0.30497	-0.06875	0.27612	-0.14688

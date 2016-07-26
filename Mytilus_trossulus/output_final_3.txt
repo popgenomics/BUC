@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Mytilus_trossulus	Mytilus trossulus	27142	0.37969	0.03296	0.41221	0.04637	0.31456	0.05211	0.3109	0.05912	0.03859	0.1173	-0.03564	0.10615	-0.05774	0.10045	-0.04265

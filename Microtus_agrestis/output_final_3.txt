@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Microtus_agrestis	Microtus agrestis	16368	0.50987	0.06457	0.48646	0.05855	0.55675	0.12124	0.47164	0.08616	0.5588	0.26906	-0.04964	0.33602	-0.03295	0.32628	-0.19299

@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Daubentonia_madagascariensis	Daubentonia madagascariensis	9082	0.4735	0.06409	0.46197	0.05309	0.49663	0.13801	0.42448	0.09258	0.47379	0.03707	-0.01112	0.04628	-0.01135	0.04416	-0.02398

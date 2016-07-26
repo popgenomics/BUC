@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Messor_capitatus	Messor capitatus	10551	0.45165	0.06639	0.44278	0.05467	0.46942	0.12508	0.36145	0.0892	0.3656	0.13051	0.03347	0.11396	-0.01687	0.12685	-0.10359

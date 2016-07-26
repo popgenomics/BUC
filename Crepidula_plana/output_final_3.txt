@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Crepidula_plana	Crepidula plana	3278	0.52535	0.04148	0.48402	0.05056	0.60813	0.09262	0.40793	0.07106	0.14132	0.17687	-0.18754	0.25352	-0.22144	0.21036	-0.06128

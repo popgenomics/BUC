@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Tupaia_belangeri	Tupaia belangeri	21572	0.51611	0.08557	0.49055	0.0693	0.56735	0.16305	0.48374	0.11015	0.59898	0.11504	-0.02691	0.17641	-0.03339	0.17059	-0.11157

@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Sepia_officinalis	Sepia officinalis	12578	0.41658	0.04528	0.4342	0.05355	0.38128	0.07554	0.35334	0.08509	0.176	-0.07408	-0.04135	-0.07689	-0.09951	-0.05598	0.01978

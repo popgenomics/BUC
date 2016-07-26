@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Caenorhabditis_brenneri	Caenorhabditis brenneri	3000	0.45199	0.0442	0.4597	0.05394	0.43655	0.1004	0.32492	0.07021	0.1741	-0.24685	-0.33367	-0.24381	-0.32511	-0.28434	0.25762

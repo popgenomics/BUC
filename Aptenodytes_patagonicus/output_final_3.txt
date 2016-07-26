@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Aptenodytes_patagonicus	Aptenodytes patagonicus	4784	0.46998	0.06223	0.4634	0.05307	0.48315	0.12373	0.39614	0.08034	0.45802	-0.03059	-0.01848	-0.02861	-0.07493	-0.02397	0.04018

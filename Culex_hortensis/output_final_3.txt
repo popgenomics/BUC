@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Culex_hortensis	Culex hortensis	14005	0.53247	0.06447	0.46822	0.05488	0.66141	0.14344	0.41596	0.09812	0.35142	0.01081	-0.15304	0.13358	-0.14711	0.11749	-0.0278

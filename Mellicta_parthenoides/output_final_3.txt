@@ -1,0 +1,2 @@
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
+Mellicta_parthenoides	Mellicta plotina	7747	0.41065	0.06145	0.42543	0.05559	0.38104	0.11642	0.28593	0.07965	0.17801	0.24661	0.02513	0.20029	-0.07996	0.19446	-0.0765
