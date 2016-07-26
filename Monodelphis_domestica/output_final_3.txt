@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Monodelphis_domestica	Monodelphis domestica	14221	0.45504	0.05791	0.45461	0.05266	0.45589	0.11998	0.41407	0.08323	0.50821	0.31764	0.00073	0.3065	-0.04151	0.28426	-0.14554

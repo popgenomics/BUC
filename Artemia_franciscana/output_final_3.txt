@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Artemia_franciscana	Artemia franciscana	15127	0.40741	0.03681	0.44032	0.04938	0.34147	0.0546	0.33932	0.08463	0.0722	-0.13961	0.0073	-0.17097	-0.07849	-0.13944	0.10054

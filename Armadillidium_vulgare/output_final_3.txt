@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Armadillidium_vulgare	Armadillidium vulgare	16373	0.38395	0.04806	0.41752	0.0547	0.31674	0.07425	0.29312	0.09043	0.2562	-0.08328	-0.02766	-0.11506	-0.10491	-0.0929	0.09119

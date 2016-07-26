@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Homo_sapiens	Homo sapiens	9881	0.49391	0.07108	0.47397	0.05671	0.5339	0.15214	0.45585	0.10144	0.52349	0.27452	-0.08503	0.37781	-0.06789	0.34907	-0.22567

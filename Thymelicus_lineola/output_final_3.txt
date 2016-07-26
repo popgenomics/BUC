@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Thymelicus_lineola	Thymelicus lineola	19065	0.47321	0.0888	0.45264	0.06305	0.5144	0.17316	0.34491	0.08941	0.26203	-0.00687	-0.03907	-0.00884	-0.12308	-0.00182	0.05354

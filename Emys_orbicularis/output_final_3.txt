@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Emys_orbicularis	Emys orbicularis	4522	0.48968	0.06752	0.47419	0.05528	0.52066	0.13622	0.42395	0.09609	0.54586	-0.03392	0.00644	-0.06503	-0.07503	-0.03459	0.05089

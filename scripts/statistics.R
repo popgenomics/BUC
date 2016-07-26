@@ -51,5 +51,5 @@ res = c(res, round(c(r_expression_GC3_GCutr$estimate, r_expression_ENc_cub$estim
 names(res) = c("dataset", "NCBIname", "nLoci", "GCtot_avg", "GCtot_std", "GC12_avg", "GC12_std", "GC3_avg", "GC3_std", "GCutr_avg", "GCutr_std", "r_GC3_GCutr", "r_expression_ENc_cub", "r_expression_ENc_JN", "r_expression_ENcP_cub", "r_expression_ENcP_JN", " r_expression_ENcPFDS_cub", "r_expression_Um_cub")
 res = as.matrix(res, nrow=1)
 
-write.table(t(res), file = "output_final_3.txt", quote = F, sep = "\t", row.names = F, col.names = T)
+write.table(t(res), file = "output_final_2.txt", quote = F, sep = "\t", row.names = F, col.names = T)
 

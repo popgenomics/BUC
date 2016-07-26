@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Messor_structor	Messor structor	11801	0.46205	0.07444	0.44925	0.06104	0.48767	0.13423	0.39226	0.09531	0.42358	0.13308	0.05624	0.10836	0.01505	0.1081	-0.03903

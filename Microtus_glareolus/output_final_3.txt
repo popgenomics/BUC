@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Microtus_glareolus	Myodes glareolus	13362	0.5018	0.06345	0.47903	0.05731	0.54743	0.12386	0.46747	0.09014	0.53304	0.33856	-0.04595	0.40244	-0.0379	0.37583	-0.25091

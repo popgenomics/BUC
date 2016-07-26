@@ -54,16 +54,6 @@ GC3 = stat(orf["GC3"])
 GC12 = stat(orf["GC12"])
 GCutr = stat(orf["GCutr"])
 
-#nReads_GC12 = correlation(orf["nReads"], orf["GC12"])
-#GCcorrectedExpression_GC12 = correlation(orf["GCcorrected_expression"], orf["GC12"])
-#GCcorrectedExpression_GC3 = correlation(orf["GCcorrected_expression"], orf["GC3"])
-#GCcorrectedExpression_GCutr = correlation(orf["GCcorrected_expression"], orf["GCutr"])
-#GCcorrectedExpression_ENc = correlation(orf["GCcorrected_expression"], orf["ENc_cubt"])
-#GCcorrectedExpression_ENcP = correlation(orf["GCcorrected_expression"], orf["ENcP_cubt"])
-#GCcorrectedExpression_ENcFDS = correlation(orf["GCcorrected_expression"], orf["ENcFDS_cubt"])
-#GCcorrectedExpression_ENcPFDS = correlation(orf["GCcorrected_expression"], orf["ENcPFDS_cubt"])
-#GCcorrectedExpression_Um = correlation(orf["GCcorrected_expression"], orf["Um_cubt"])
-#GCcorrectedExpression_L = correlation(orf["GCcorrected_expression"], orf["Ltot"])
 
 res = "dataset\tNCBIname\tnLoci\t"
 res2 = dataset + "\t" + NCBI + "\t" + str(nLoci) + "\t"
@@ -88,7 +78,7 @@ for i in ["GC12", "GC3", "GCutr", "Nc_JN", "Ncp_JN", "ENc_cubt", "ENcP_cubt", "E
 res += "r_GC3_GCutr\trho_GC3_GCutr\ttau_GC3_GCutr\n"
 res2 += "\t".join([ str(k) for k in correlation(orf["GC3"], orf["GCutr"])]) + "\n"
 
-outfile = open("output_final_2.txt", "w")
+outfile = open("output_final_1.txt", "w")
 outfile.write(res + res2)
 outfile.close()
 

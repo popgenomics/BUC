@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Hippocampus_guttulatus	Hippocampus guttulatus	20289	0.54068	0.05826	0.48949	0.05134	0.64313	0.11941	0.44794	0.07486	0.26435	-0.07406	-0.01464	-0.10425	-0.05379	-0.11057	0.15124

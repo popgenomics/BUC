@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Eudyptes_moseleyi	Eudyptes chrysocome moseleyi	8417	0.49174	0.07921	0.47398	0.05901	0.52729	0.16219	0.42112	0.09429	0.60418	0.03068	-0.01216	0.04575	-0.06447	0.05081	-0.02601

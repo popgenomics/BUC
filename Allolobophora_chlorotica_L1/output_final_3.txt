@@ -1,2 +1,0 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Allolobophora_chlorotica_L1	Allolobophora chlorotica L1	28979	0.48222	0.04343	0.46912	0.04873	0.50846	0.09576	0.39901	0.06844	0.24256	0.08215	-0.07581	0.08496	-0.09717	0.08128	-0.0597
