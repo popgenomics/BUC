@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Mytilus_californianus	Mytilus californianus	19769	0.38015	0.03203	0.4142	0.04509	0.31196	0.05131	0.3134	0.05748	0.03246	0.1469	-0.04126	0.14133	-0.05718	0.12893	-0.05625
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Mytilus_californianus	Mytilus californianus	19769	0.38015	0.03203	0.4142	0.04509	0.31196	0.05131	0.3134	0.05748	0.03246	-0.04126	-0.05718

@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Ophioderma_longicauda_L3	Ophioderma panamensis	19854	0.43764	0.03988	0.44692	0.0495	0.41904	0.06968	0.37358	0.0562	0.08214	0.12764	-0.00688	0.11395	-0.04619	0.11112	-0.11197
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Ophioderma_longicauda_L3	Ophioderma panamensis	19854	0.43764	0.03988	0.44692	0.0495	0.41904	0.06968	0.37358	0.0562	0.08214	-0.00688	-0.04619

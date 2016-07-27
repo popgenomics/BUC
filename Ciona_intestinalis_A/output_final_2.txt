@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Ciona_intestinalis_A	Ciona cf. intestinalis A AZ-2012	8094	0.40521	0.0434	0.42004	0.04919	0.37554	0.07121	0.2992	0.06472	0.12206	-0.12578	-0.03125	-0.1617	-0.10878	-0.12856	0.11662
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Ciona_intestinalis_A	Ciona cf. intestinalis A AZ-2012	8094	0.40521	0.0434	0.42004	0.04919	0.37554	0.07121	0.2992	0.06472	0.12206	-0.03125	-0.10878

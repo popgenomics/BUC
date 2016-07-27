@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Cystodites_dellechiajei_purple	Cystodytes aucklandicus	33908	0.45536	0.05533	0.45014	0.04832	0.46579	0.11083	0.37369	0.08068	0.32163	-0.04777	0.00412	-0.07615	-0.07184	-0.06974	0.08492
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Cystodites_dellechiajei_purple	Cystodytes aucklandicus	33908	0.45536	0.05533	0.45014	0.04832	0.46579	0.11083	0.37369	0.08068	0.32163	0.00412	-0.07184

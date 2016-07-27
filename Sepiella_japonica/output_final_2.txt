@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Sepiella_japonica	Sepiella japonica	8015	0.41782	0.04357	0.43883	0.05537	0.37571	0.07682	0.33979	0.07952	0.17364	0.35826	-0.04026	0.38084	-0.0662	0.34886	-0.23677
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Sepiella_japonica	Sepiella japonica	8015	0.41782	0.04357	0.43883	0.05537	0.37571	0.07682	0.33979	0.07952	0.17364	-0.04026	-0.0662

@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Microtus_arvalis	Microtus arvalis	11715	0.51422	0.06423	0.48813	0.05693	0.56642	0.11724	0.47697	0.0895	0.52719	-0.11021	-0.02519	-0.12232	-0.05338	-0.10321	0.15394
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Microtus_arvalis	Microtus arvalis	11715	0.51422	0.06423	0.48813	0.05693	0.56642	0.11724	0.47697	0.0895	0.52719	-0.02519	-0.05338

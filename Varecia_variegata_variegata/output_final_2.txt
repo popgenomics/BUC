@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Varecia_variegata_variegata	Varecia variegata variegata	10728	0.49267	0.07074	0.47107	0.05593	0.53598	0.15335	0.44376	0.10211	0.51611	0.20823	-0.07571	0.30825	-0.07405	0.28669	-0.1423
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Varecia_variegata_variegata	Varecia variegata variegata	10728	0.49267	0.07074	0.47107	0.05593	0.53598	0.15335	0.44376	0.10211	0.51611	-0.07571	-0.07405

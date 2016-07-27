@@ -62,6 +62,8 @@ for(i in 1:length(phyl$tip.label)){ # loop over the 1:nIndividuals
 	rect(1*stats, (i-1)*step, 2*stats, i*step, col=couleurStat(x$GC3_std[tmp]/x$GC3_avg[tmp], x$GC3_std/x$GC3_avg), border=F) # GC3_std
 	rect(2*stats, (i-1)*step, 3*stats, i*step, col=couleurStat(x$r_GC3_GCutr[tmp], x$r_GC3_GCutr), border=F) # one stat of BUC
 }
+dev.print(pdf, "figure_isochores.pdf", bg="white") 
+dev.off()
 
 x11()
 # BUC
@@ -86,4 +88,30 @@ for(i in 1:length(phyl$tip.label)){ # loop over the 1:nIndividuals
 	rect(5*stats, (i-1)*step, 6*stats, i*step, col=couleurStat(x$r_expression_Um_cub[tmp], x$r_expression_Um_cub), border=F)
 
 }
+dev.print(pdf, "figure_codonUsage.pdf", bg="white") 
+dev.off()
+
+x11()
+# BGC
+# plot the tree
+par(mfrow=c(1,2), mar=c(0,4,0,0))
+plot.phylo(phyl, use.edge.length=F, cex=0.5, align.tip.label=T)
+
+# plot the statistics
+plot.new()
+par(mar=c(0,0,0,0))
+step = 1/length(phyl$tip.label)
+
+nStats = 2 # number of statistics to show
+stats = 1/nStats
+for(i in 1:length(phyl$tip.label)){ # loop over the 1:nIndividuals
+	tmp = which(x[,1]==phyl$tip.label[i])
+#	rect(0, (i-1)*step, 1, i*step, col=couleurStat(x$nLoci[tmp], x$nLoci))
+#	rect(0*stats, (i-1)*step, 1*stats, i*step, col=couleurStat(x$rho_GC3_GCutr[tmp], x$rho_GC3_GCutr), border=F) # GC3_std
+	rect(0*stats, (i-1)*step, 1*stats, i*step, col=couleurStat(x$r_GC3_GCutr[tmp], x$r_GC3_GCutr), border=F) # one stat of BUC
+	rect(1*stats, (i-1)*step, 2*stats, i*step, col=couleurStat(x$r_expression_ENcP_JN[tmp], x$r_expression_ENcP_JN), border=F)
+}
+dev.print(pdf, "figure_isochores_BUC.pdf", bg="white") 
+dev.off()
+
 

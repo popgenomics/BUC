@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Lepus_granatensis	Lepus granatensis	4809	0.50631	0.07958	0.48066	0.06186	0.55762	0.15965	0.43173	0.11734	0.59863	-0.05538	-0.03126	-0.04065	-0.05893	-0.02965	0.05475
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Lepus_granatensis	Lepus granatensis	4809	0.50631	0.07958	0.48066	0.06186	0.55762	0.15965	0.43173	0.11734	0.59863	-0.03126	-0.05893

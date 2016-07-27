@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Mytilus_edulis	Mytilus edulis	34441	0.38406	0.03269	0.42001	0.04702	0.31208	0.05117	0.31435	0.06395	0.06448	-0.04988	0.0143	-0.10145	-0.05267	-0.09525	0.08504
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Mytilus_edulis	Mytilus edulis	34441	0.38406	0.03269	0.42001	0.04702	0.31208	0.05117	0.31435	0.06395	0.06448	0.0143	-0.05267

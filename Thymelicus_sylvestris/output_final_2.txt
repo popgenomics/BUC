@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Thymelicus_sylvestris	Thymelicus sylvestris	18911	0.47386	0.09008	0.45139	0.06335	0.51887	0.17645	0.34249	0.08911	0.25829	0.00285	-0.01928	-0.01113	-0.09781	-0.0115	0.06508
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Thymelicus_sylvestris	Thymelicus sylvestris	18911	0.47386	0.09008	0.45139	0.06335	0.51887	0.17645	0.34249	0.08911	0.25829	-0.01928	-0.09781

@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Eulemur_coronatus	Eulemur coronatus	9666	0.48002	0.06918	0.46585	0.05535	0.50842	0.14801	0.43281	0.09763	0.50036	0.25536	-0.06751	0.33181	-0.06665	0.30361	-0.17669
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Eulemur_coronatus	Eulemur coronatus	9666	0.48002	0.06918	0.46585	0.05535	0.50842	0.14801	0.43281	0.09763	0.50036	-0.06751	-0.06665

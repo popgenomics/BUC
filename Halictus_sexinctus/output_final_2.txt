@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Halictus_sexinctus	Halictus sexcinctus	4843	0.41603	0.05905	0.42564	0.04878	0.39678	0.13077	0.33033	0.08144	0.48095	0.38816	0.01634	0.34399	-0.08633	0.30968	-0.1297
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Halictus_sexinctus	Halictus sexcinctus	4843	0.41603	0.05905	0.42564	0.04878	0.39678	0.13077	0.33033	0.08144	0.48095	0.01634	-0.08633

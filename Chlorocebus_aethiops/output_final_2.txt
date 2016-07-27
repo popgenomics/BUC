@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Chlorocebus_aethiops	Chlorocebus aethiops	11180	0.48562	0.06872	0.47035	0.05637	0.51623	0.14557	0.44637	0.09516	0.49467	0.23009	-0.07224	0.2996	-0.06356	0.27891	-0.15251
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Chlorocebus_aethiops	Chlorocebus aethiops	11180	0.48562	0.06872	0.47035	0.05637	0.51623	0.14557	0.44637	0.09516	0.49467	-0.07224	-0.06356

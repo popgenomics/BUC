@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Caenorhabditis_sp10	Caenorhabditis elegans	5099	0.42819	0.04113	0.44595	0.05135	0.39259	0.0879	0.31918	0.06878	0.10509	0.04956	-0.28213	0.00757	-0.33171	-0.05417	0.18101
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Caenorhabditis_sp10	Caenorhabditis elegans	5099	0.42819	0.04113	0.44595	0.05135	0.39259	0.0879	0.31918	0.06878	0.10509	-0.28213	-0.33171

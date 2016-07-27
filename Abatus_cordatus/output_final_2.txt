@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Abatus_cordatus	Abatus cordatus	3765	0.50665	0.04956	0.47452	0.04924	0.57094	0.10426	0.3672	0.06565	0.04177	-0.10603	-0.19159	-0.02512	-0.17675	-0.02853	0.02297
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Abatus_cordatus	Abatus cordatus	3765	0.50665	0.04956	0.47452	0.04924	0.57094	0.10426	0.3672	0.06565	0.04177	-0.19159	-0.17675

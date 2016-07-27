@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Chelonoidis_nigra	Chelonoidis nigra	9387	0.46661	0.06322	0.46212	0.05618	0.47559	0.12085	0.40521	0.08414	0.49069	0.04979	-0.0174	0.05002	-0.06554	0.05159	0.00169
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Chelonoidis_nigra	Chelonoidis nigra	9387	0.46661	0.06322	0.46212	0.05618	0.47559	0.12085	0.40521	0.08414	0.49069	-0.0174	-0.06554

@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Lineus_lacteus	Ramphogordius lacteus	22522	0.47158	0.03787	0.45783	0.04512	0.49911	0.08488	0.39615	0.05716	0.12209	0.17552	-0.01826	0.18186	-0.03939	0.18046	-0.1578
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Lineus_lacteus	Ramphogordius lacteus	22522	0.47158	0.03787	0.45783	0.04512	0.49911	0.08488	0.39615	0.05716	0.12209	-0.01826	-0.03939

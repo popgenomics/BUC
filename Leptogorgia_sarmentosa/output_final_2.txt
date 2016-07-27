@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Leptogorgia_sarmentosa	Leptogorgia sarmentosa	16494	0.42195	0.04168	0.44	0.04911	0.38575	0.08128	0.338	0.0753	0.12378	0.23819	0.00424	0.2382	0.00656	0.22023	-0.09923
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Leptogorgia_sarmentosa	Leptogorgia sarmentosa	16494	0.42195	0.04168	0.44	0.04911	0.38575	0.08128	0.338	0.0753	0.12378	0.00424	0.00656

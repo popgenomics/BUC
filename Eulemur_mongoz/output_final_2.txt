@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_cub	r_expression_ENc_JN	r_expression_ENcP_cub	r_expression_ENcP_JN	 r_expression_ENcPFDS_cub	r_expression_Um_cub
-Eulemur_mongoz	Eulemur mongoz	8510	0.48712	0.06603	0.46844	0.05354	0.52459	0.14683	0.44788	0.09987	0.47264	0.25559	-0.08704	0.35137	-0.08382	0.32008	-0.20179
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc_JN	r_expression_ENcP_JN
+Eulemur_mongoz	Eulemur mongoz	8510	0.48712	0.06603	0.46844	0.05354	0.52459	0.14683	0.44788	0.09987	0.47264	-0.08704	-0.08382
