@@ -7,11 +7,11 @@ each directory contains two output files:
  
 
 The "./final_output.txt" file concatenates all of the */output_final_2.txt files.
-It contains 83 statistics measured in 103 species.
+It contains statistics measured in 103 species.
 
 Can be read in R as follows:
 
-	x = read.table("final_output.txt", h=T, sep="\t")
+	x = read.table("final_output_2.txt", h=T, sep="\t")
 
 Contains:
 	dataset: name of the directory
@@ -29,17 +29,9 @@ Contains:
 	_std = standard deviation over the observed loci
 
 	r_ = Pearson's correlation coefficient
-	rho_ = Spearman's correlation coefficient
-	tau_ = Kendall's correlation coefficient
-
-	nCountedReads = mean number of mapped reads for each expressed loci
+	
 	CorrectedExpression = mean number of mapped reads corrected by the %GC at positions 1 and 2
 
-	NcJN = Effective number of codons; estimated by using John Novembre's code ENCprime (ENc)
-	NcpJN = Effective number of codons by accounting for background nucleotide composition; estimated by using "ENCprime" (ENc')
-	ENccubt = ENc calculated by using Satapathy and Sahoo's code "cub"
-	ENcPcubt = ENc' calculated by using "cub" (ENc')
-	ENcFDScubt = ENc calculated for amino acids having 4 synonymous codons. Values range from 8 to 32; estimated by using "cub"
-	ENcPFDScubt = ENc' calculated for amino acids having 4 synonymous codons. Values range from 8 to 32; estimated by using "cub"
-	Umcubt = Um(g) is an estimation of nucleotide frequency at 4 fould-fold degenerated sites
+	Nc = Effective number of codons; estimated by using John Novembre's code ENCprime (ENc)
+	Ncp = Effective number of codons by accounting for background nucleotide composition; estimated by using "ENCprime" (ENc')
 
