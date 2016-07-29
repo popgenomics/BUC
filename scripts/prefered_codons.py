@@ -1,14 +1,79 @@
 #!/usr/bin/python
 import os
 import sys
+from numpy.random import choice
 from Bio.SeqIO import parse
 
+def codonAnalyse(x, nInd, threshold): # x = dataset[loci_i], nInd = twice the number of sampled individuals, threshold = value in [0 - nInd[
+	# function that loop over codons of one alignment of sequences
+	# watch for positions with polymorphism of two synonymous codons
+	# object to return:
+	res = {}
+	res['nCodons'] = 0 # number of polymorphic codon in the studied locus
+	res['pos'] = [] # vector with positions of the polymorphic codons
+	res['pref'] = [] # vector with codes of the preferred codons
+	res['unpref'] = [] # vector with codes of the unpreferred codons
+	res['nPref'] = [] # vector with the number of individuals with the preferred variant at this position
+	res['nUnpref'] = [] # vector with the number of individuals with the unPreferred variant at this position
+	res['ENcP'] = [] # vector with the ENc' value of the locus
+	res['expression'] = [] # vector with the expression value of the locus
+	# retain nInd - threshold sequences
+	nPos = len(x[0])
+	toRemove = nPos%3
+	if toRemove==0:
+		toRemove = 3 # remove the last codon
+	cnt = -1
+	for i in range(0, nPos - toRemove, 3):
+		cnt += 1
+		codon = []
+		for j in range(x['nSeq'] + 1):
+			codonTMP = str(x[j][i:(i+3)])
+			if "N" not in codonTMP:
+				codon.append(codonTMP)
+		if len(codon) > (nInd - threshold):
+			sample = choice(len(codon), nInd-threshold, replace=False)
+			codon2 = []
+			for j in sample:
+				codon2.append(codon[j])
+			content = list(set(codon2))
+			if(len(content) != 2):
+				# reject everything which is not bi-allelic polymorphism
+				continue
+			if(len(content) == 2):
+				# check that the polymorphism is synonymous
+				tri1 = content[0]
+				tri2 = content[1]
+				if tri1 not in translaTable or tri2 not in translaTable:
+					continue
+				aa1 = translaTable[tri1]
+				aa2 = translaTable[tri2]
+				if(aa1 != aa2):
+					# start the next step of the loop if the polymorphism is not synonymous
+					continue
+				else: # if synonymous polymorphism
+					if aa1 not in keptAA: # if the codon is not in the list of retained aa
+						continue
+					else:
+						prefCodon = codons[aa1]['prefCodon']
+						unprefCodon = codons[aa1]['unprefCodon']
+						nPref = codon2.count(prefCodon)
+						nUnpref = codon2.count(unprefCodon)
+						res['nCodons'] += 1
+						res['pos'].append(cnt)
+						res['pref'].append(prefCodon)
+						res['unpref'].append(unprefCodon)
+						res['nPref'].append(nPref) 
+						res['nUnpref'].append(nUnpref)
+						res['ENcP'].append(x['Ncp'])
+						res['expression'].append(x['expression'])
+	return(res)
 
-#cdsFile = sys.argv[1]
-cdsFile = "Caenorhabditis_brenneri#solo200.cds"
+
+cdsFile = sys.argv[1]
+#cdsFile = "Caenorhabditis_brenneri#solo200.cds"
 
 
-# codon table
+# codon table: provides synonymous codon for an amino acyl 'i'
 codonTable = {}
 codonTable["A"] = ("GCA", "GCT", "GCG", "GCC")
 codonTable["R1"] = ("CGA","CGT","CGG","CGC")
@@ -33,7 +98,7 @@ codonTable["Y"] = ("TAT", "TAC")
 codonTable["V"] = ("GTA", "GTT", "GTG", "GTC")
 
 
-# translaTable
+# translaTable: provides amino acyl for a codon 'i'
 translaTable = {}
 for i in codonTable:
 	for j in codonTable[i]:
@@ -42,12 +107,13 @@ for i in codonTable:
 
 # detect the prefered synonymous codons
 command = "../scripts/prefered_codons.R"
-testCommand = os.system(command)
+testCommand = os.system(command) # launch the R code "prefered_codons.R" producing "output_prefered_codons.txt"
 
 
 codons = {} # contains preferred and unpreferred codons for aa with found preferred codons
 
 
+# record the R output into python
 infile = "output_prefered_codons.txt"
 input = open(infile, "r")
 for i in input:
@@ -67,7 +133,7 @@ for i in input:
 input.close()
 
 
-# keptAA: list of retained amino acyls: with only 2 synonymous codons + significant preferred codon (based on correlation)
+# keptAA: list of retained amino acyls: with only 2 synonymous codons AND IF there is a significant preferred codon (based on correlation)
 keptAA = []
 for i in codons:
 	if codons[i]['prefCodon'] != "NNN" and codons[i]['unprefCodon'] != "NNN":
@@ -101,6 +167,10 @@ for i in dataset:
 	nInd.append(dataset[i]["nSeq"])
 nInd = max(nInd) + 1
 
+if nInd < 5:
+	threshold = threshold
+else:
+	threshold = nInd - 5
 
 # get the estimated expression
 infile = "output_summarized.txt"
@@ -123,17 +193,38 @@ for i in input:
 input.close()
 
 
-def codonAnalyse(x): # x = dataset[loci_i]
-	nPos = len(x[0])
-	toRemove = nPos%3
-	if toRemove==0:
-		toRemove = 3 # remove the last codon
-	for i in range(0, nPos - toRemove, 3):
-		codon = []
-		for j in range(x['nSeq']+1):
-			codonTMP = str(x[j][i:(i+3)])
-			if "N" not in codonTMP:
-				codon.append(codonTMP)
-	return(codon)
+# loop to analyse spectrum over the whole dataset
+res = {}
+res['loci'] = []
+res['pos'] = []
+res['pref'] = []
+res['unpref'] = []
+res['nPref'] = []
+res['nUnpref'] = []
+res['ENcP'] = []
+res['expression'] = []
 
+
+nPolymorphicPosition = 0
+for i in dataset:
+	if 'Ncp' not in dataset[i] or 'expression' not in dataset[i]:
+		continue
+	a = codonAnalyse(dataset[i], nInd, threshold)
+	if a['nCodons'] > 0:
+		for j in range(a['nCodons']):
+			nPolymorphicPosition += 1
+			res['loci'].append(i)
+			res['pos'].append(a['pos'][j])
+			res['pref'].append(a['pref'][j])
+			res['unpref'].append(a['unpref'][j])
+			res['nPref'].append(a['nPref'][j])
+			res['nUnpref'].append(a['nUnpref'][j])
+			res['ENcP'].append(a['ENcP'][j])
+			res['expression'].append(a['expression'][j])
+
+
+# output:
+output = "loci\tpos\texpression\tEncp\tpref\tunpref\tnPref\tnUnpref\n"
+for i in range(nPolymorphicPosition):
+	output += "{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\n".format(res['loci'][i], res['pos'][i], res['expression'][i], res['ENcP'][i], res['pref'][i], res['unpref'][i], res['nPref'][i], res['nUnpref'][i])
 
