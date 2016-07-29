@@ -4,6 +4,8 @@ import sys
 from numpy.random import choice
 from Bio.SeqIO import parse
 
+nIndToSurvey = 10 # number of individuals to survey. i.e: if we want to investigate 10 copies over a maximum of 16 (8 sampled diploid individuals)
+
 def codonAnalyse(x, nInd, threshold): # x = dataset[loci_i], nInd = twice the number of sampled individuals, threshold = value in [0 - nInd[
 	# function that loop over codons of one alignment of sequences
 	# watch for positions with polymorphism of two synonymous codons
@@ -167,10 +169,10 @@ for i in dataset:
 	nInd.append(dataset[i]["nSeq"])
 nInd = max(nInd) + 1
 
-if nInd < 5:
+if nInd < nIndToSurvey:
 	threshold = threshold
 else:
-	threshold = nInd - 5
+	threshold = nInd - nIndToSurvey 
 
 # get the estimated expression
 infile = "output_summarized.txt"
@@ -227,4 +229,9 @@ for i in dataset:
 output = "loci\tpos\texpression\tEncp\tpref\tunpref\tnPref\tnUnpref\n"
 for i in range(nPolymorphicPosition):
 	output += "{0}\t{1}\t{2}\t{3}\t{4}\t{5}\t{6}\t{7}\n".format(res['loci'][i], res['pos'][i], res['expression'][i], res['ENcP'][i], res['pref'][i], res['unpref'][i], res['nPref'][i], res['nUnpref'][i])
+
+outfile = open("output_pref_unpref_polymorphism.txt", "w")
+outfile.write(output)
+outfile.close()
+
 
