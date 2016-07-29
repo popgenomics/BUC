@@ -18,6 +18,9 @@ buc = read.table("../final_output_2.txt", sep="\t", header=T)
 bio = read.csv("../life_history_traits.csv")
 biobuc = merge(bio,buc, by.x="focal", by.y="dataset")
 
+popphyl = which(biobuc$source == "This study")
+biobuc = biobuc[popphyl, ]
+
 attach(biobuc)
 names(biobuc)
 
