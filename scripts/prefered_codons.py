@@ -1,10 +1,15 @@
 #!/usr/bin/python
+#./prefered_codons.py Caenorhabditis_brenneri#solo200.cds
 import os
 import sys
 from numpy.random import choice
 from Bio.SeqIO import parse
+import numpy as np
+import matplotlib.pyplot as plt
+from pylab import savefig
 
-nIndToSurvey = 10 # number of individuals to survey. i.e: if we want to investigate 10 copies over a maximum of 16 (8 sampled diploid individuals)
+cdsFile = sys.argv[1]
+#cdsFile = "Caenorhabditis_brenneri#solo200.cds"
 
 def codonAnalyse(x, nInd, threshold): # x = dataset[loci_i], nInd = twice the number of sampled individuals, threshold = value in [0 - nInd[
 	# function that loop over codons of one alignment of sequences
@@ -69,10 +74,6 @@ def codonAnalyse(x, nInd, threshold): # x = dataset[loci_i], nInd = twice the nu
 						res['ENcP'].append(x['Ncp'])
 						res['expression'].append(x['expression'])
 	return(res)
-
-
-cdsFile = sys.argv[1]
-#cdsFile = "Caenorhabditis_brenneri#solo200.cds"
 
 
 # codon table: provides synonymous codon for an amino acyl 'i'
@@ -169,10 +170,21 @@ for i in dataset:
 	nInd.append(dataset[i]["nSeq"])
 nInd = max(nInd) + 1
 
-if nInd < nIndToSurvey:
-	threshold = threshold
-else:
-	threshold = nInd - nIndToSurvey 
+if nInd < 6:
+	threshold = 0
+if nInd == 6:
+	threshold = 1
+if nInd == 7:
+	threshold = 2
+if nInd == 8:
+	threshold = 3
+if nInd == 9:
+	threshold = 4
+if nInd == 10:
+	threshold = 5
+if nInd >= 11:
+	threshold = 6
+
 
 # get the estimated expression
 infile = "output_summarized.txt"
@@ -234,4 +246,30 @@ outfile = open("output_pref_unpref_polymorphism.txt", "w")
 outfile.write(output)
 outfile.close()
 
+if len(res['loci']) < 100:
+	sys.exit(0)
+
+# plot
+N = max(res['nPref'] + res['nUnpref'])
+ind = np.arange(N)  # the x locations for the groups
+width = 0.25       # the width of the bars
+
+fig = plt.figure()
+ax = fig.add_subplot(111)
+
+table_nPref = []
+table_nUnpref = []
+for i in ind+1:
+	table_nPref.append(res['nPref'].count(i))
+	table_nUnpref.append(res['nUnpref'].count(i))
+
+rects1 = ax.bar(ind, table_nUnpref, width, color='r')
+rects2 = ax.bar(ind+width, table_nPref, width, color='g')
+
+ax.set_xlim(left = -0.5)
+ax.set_xlim(right = N)
+ax.set_xticks(ind+width)
+ax.set_xticklabels(ind+1)
+
+savefig("codon_frequency_spectrum.pdf", bbox_inches='tight')
 
