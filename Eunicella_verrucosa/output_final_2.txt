@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Eunicella_verrucosa	Eunicella verrucosa	18812	0.41384	0.03769	0.43715	0.04796	0.36712	0.06663	0.33554	0.07209	0.09957	-0.05405	-0.01745
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Eunicella_verrucosa	Eunicella verrucosa	18812	0.41384	0.03769	0.43715	0.04796	0.36712	0.06663	0.33554	0.07209	0.09957	-0.05405	-0.01745	-0.05654	-0.02808

@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Propithecus_coquereli	Propithecus coquereli	10153	0.47541	0.06613	0.46203	0.05295	0.50226	0.14551	0.42504	0.09659	0.46603	-0.07218	-0.08331
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Propithecus_coquereli	Propithecus coquereli	10153	0.47541	0.06613	0.46203	0.05295	0.50226	0.14551	0.42504	0.09659	0.46603	-0.07218	-0.08331	-0.08524	-0.09507

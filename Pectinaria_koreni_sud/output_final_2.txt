@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Pectinaria_koreni_sud	Pectinaria regalis	3414	0.49796	0.0616	0.46837	0.05797	0.55733	0.12714	0.37711	0.09772	0.2716	-0.11306	-0.08278
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Pectinaria_koreni_sud	Pectinaria regalis	3414	0.49796	0.0616	0.46837	0.05797	0.55733	0.12714	0.37711	0.09772	0.2716	-0.11306	-0.08278	-0.11978	-0.08416

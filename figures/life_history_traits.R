@@ -7,9 +7,7 @@ correlation = function(x, y){
 		tmp = cor.test(x, y, method=i)
 		res = rbind(res, c(tmp$estimate, tmp$p.value))
 	}
-	rownames(res) = c("pearson", "spearman", "kendall")
-	colnames(res) = c("coefficient", "pvalue")
-	return(round(res, 5))
+	rownames(res) = c("pearson", "spearman", "kendall") colnames(res) = c("coefficient", "pvalue") return(round(res, 5))
 }
 
 args = commandArgs(TRUE)
@@ -28,7 +26,7 @@ names(biobuc)
 plot(GC3_avg, GC3_std, sub=round(cor.test(GC3_avg, GC3_std)$p.val, 5), main=round(cor.test(GC3_avg, GC3_std)$estimate, 5))
 
 # plot 2: log(juvenile's size), correlation(ENc' ~ expression)
-plot(log(juvSize), r_expression_ENcP, sub=round(cor.test(log(juvSize), r_expression_ENcP)$p.val, 5), main=(round(cor.test(log(juvSize), r_expression_ENcP)$estimate^2, 5)))
+plot(log(juvSize), r_expression_ENc, sub=round(cor.test(log(juvSize), r_expression_ENcP)$p.val, 5), main=(round(cor.test(log(juvSize), r_expression_ENcP)$estimate^2, 5)))
 text(log(juvSize), r_expression_ENcP, sub=cor.test(log(juvSize), r_expression_ENcP)$p.val, main=(cor.test(log(juvSize), r_expression_ENcP)$estimate)^2, focal)
 
 # plot 3: piS, correlation(ENc' ~ expression)
@@ -48,11 +46,31 @@ green = rgb(0, 1, 0, 0.75)
 red = rgb(1, 0, 0, 0.75)
 diam = 1.25 # diametre of the points
 
-plot(log(longevity), r_expression_ENcP, col="white", xlab = "log(longevity)", ylab = "cor (gene expression, ENc')", main="", cex.lab = 1.25, cex.axis = 1.2)
+# 4 pannels
+# plot 1
+par(mfrow = c(2, 2))
+plot(log(longevity), r_expression_ENcP, col="white", xlab = "log(longevity)", ylab = "cor (gene expression, ENc')", cex.lab = 1.25, cex.axis = 1.2, main = round(cor.test(log(longevity), r_expression_ENcP)$estimate**2, 5))
 points(log(longevity)[ver], r_expression_ENcP[ver], pch = 21, col = dark, bg = green, cex = diam)
 points(log(longevity)[inver], r_expression_ENcP[inver], pch = 21, col = dark, bg = red, cex = diam)
 
+# plot 2 
+plot(log(longevity), r_expression_ENc, col="white", xlab = "log(longevity)", ylab = "cor (gene expression, ENc)", cex.lab = 1.25, cex.axis = 1.2, main = round(cor.test(log(longevity), r_expression_ENc)$estimate**2, 5))
+points(log(longevity)[ver], r_expression_ENc[ver], pch = 21, col = dark, bg = green, cex = diam)
+points(log(longevity)[inver], r_expression_ENc[inver], pch = 21, col = dark, bg = red, cex = diam)
+
+# plot 3
+plot(log(longevity), r_nReads_ENcP, col="white", xlab = "log(longevity)", ylab = "cor (nReads, ENc')", cex.lab = 1.25, cex.axis = 1.2, main = round(cor.test(log(longevity), r_nReads_ENcP)$estimate**2, 5))
+points(log(longevity)[ver], r_nReads_ENcP[ver], pch = 21, col = dark, bg = green, cex = diam)
+points(log(longevity)[inver], r_nReads_ENcP[inver], pch = 21, col = dark, bg = red, cex = diam)
+
+# plot 4 
+plot(log(longevity), r_nReads_ENc, col="white", xlab = "log(longevity)", ylab = "cor (nReads, ENc)", cex.lab = 1.25, cex.axis = 1.2, main = round(cor.test(log(longevity), r_nReads_ENc)$estimate**2, 5))
+points(log(longevity)[ver], r_nReads_ENc[ver], pch = 21, col = dark, bg = green, cex = diam)
+points(log(longevity)[inver], r_nReads_ENc[inver], pch = 21, col = dark, bg = red, cex = diam)
+
+
+
 legend("bottomright", c("vertebrate", "invertebrate"), pch=21, col = dark, cex = diam, pt.bg = c(green, red))
 
-dev.print(pdf,'../figures/longevityBuc.pdf')
+dev.print(pdf,'../figures/longevityBuc_4stats.pdf')
 

@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Artemia_salina	Artemia salina	13586	0.40863	0.0357	0.44317	0.0497	0.33939	0.05394	0.32139	0.07213	0.04735	-0.0639	-0.03519
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Artemia_salina	Artemia salina	13586	0.40863	0.0357	0.44317	0.0497	0.33939	0.05394	0.32139	0.07213	0.04735	-0.0639	-0.03519	-0.06952	-0.05811

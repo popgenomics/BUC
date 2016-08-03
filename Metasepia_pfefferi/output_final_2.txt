@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Metasepia_pfefferi	Metasepia pfefferi	5116	0.4111	0.04451	0.43147	0.05694	0.3703	0.07504	0.32238	0.07608	0.15758	-0.03069	-0.05546
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Metasepia_pfefferi	Metasepia pfefferi	5116	0.4111	0.04451	0.43147	0.05694	0.3703	0.07504	0.32238	0.07608	0.15758	-0.03069	-0.05546	-0.03459	-0.07034

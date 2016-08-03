@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Echinocardium_mediterraneum	Echinocardium mediterraneum	20843	0.50296	0.04751	0.47109	0.04473	0.56678	0.10992	0.38411	0.07057	0.09476	-0.13253	-0.12701
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Echinocardium_mediterraneum	Echinocardium mediterraneum	20843	0.50296	0.04751	0.47109	0.04473	0.56678	0.10992	0.38411	0.07057	0.09476	-0.13253	-0.12701	-0.13493	-0.13078

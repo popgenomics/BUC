@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Eunicella_cavolinii	Eunicella cavolinii	19803	0.41368	0.03786	0.43575	0.04717	0.36944	0.06695	0.34611	0.08525	0.11817	-0.0573	-0.07021
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Eunicella_cavolinii	Eunicella cavolinii	19803	0.41368	0.03786	0.43575	0.04717	0.36944	0.06695	0.34611	0.08525	0.11817	-0.0573	-0.07021	-0.05697	-0.08574

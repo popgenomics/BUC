@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Camponotus_ligniperdus_4indiv	Camponotus ligniperdus	8308	0.42702	0.07413	0.43071	0.05939	0.41962	0.13109	0.35346	0.08675	0.42101	-0.06015	-0.03421
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Camponotus_ligniperdus_4indiv	Camponotus ligniperdus	8308	0.42702	0.07413	0.43071	0.05939	0.41962	0.13109	0.35346	0.08675	0.42101	-0.06015	-0.03421	-0.05358	-0.01358

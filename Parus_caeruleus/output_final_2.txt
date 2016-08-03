@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Parus_caeruleus	Cyanistes caeruleus	3801	0.49432	0.07084	0.47236	0.05734	0.53827	0.1422	0.42487	0.08952	0.45446	-0.01547	-0.02304
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Parus_caeruleus	Cyanistes caeruleus	3801	0.49432	0.07084	0.47236	0.05734	0.53827	0.1422	0.42487	0.08952	0.45446	-0.01547	-0.02304	-0.01824	-0.02445
