@@ -27,12 +27,20 @@ var1 = which(colnames(z) == "GCcorrected_expression")
 var2 = which(colnames(z) == "Ncp")
 r_expression_ENcP = cor.test(as.numeric(z[, var1]), as.numeric(z[, var2]))
 
+var1 = which(colnames(z) == "nReads")
+var2 = which(colnames(z) == "Nc")
+r_nReads_ENc = cor.test(as.numeric(z[, var1]), as.numeric(z[, var2]))
+
+var1 = which(colnames(z) == "nReads")
+var2 = which(colnames(z) == "Ncp")
+r_nReads_ENcP = cor.test(as.numeric(z[, var1]), as.numeric(z[, var2]))
+
 res = c(dataset, NCBI)
 res = c(res, nLoci)
 res = c(res, round(c(GCtot_avg, GCtot_std, GC12_avg, GC12_std, GC3_avg, GC3_std, GCutr_avg, GCutr_std), 5))
-res = c(res, round(c(r_expression_GC3_GCutr$estimate, r_expression_ENc$estimate, r_expression_ENcP$estimate), 5))
+res = c(res, round(c(r_expression_GC3_GCutr$estimate, r_expression_ENc$estimate, r_expression_ENcP$estimate, r_nReads_ENc$estimate, r_nReads_ENcP$estimate), 5))
 
-names(res) = c("dataset", "NCBIname", "nLoci", "GCtot_avg", "GCtot_std", "GC12_avg", "GC12_std", "GC3_avg", "GC3_std", "GCutr_avg", "GCutr_std", "r_GC3_GCutr", "r_expression_ENc", "r_expression_ENcP")
+names(res) = c("dataset", "NCBIname", "nLoci", "GCtot_avg", "GCtot_std", "GC12_avg", "GC12_std", "GC3_avg", "GC3_std", "GCutr_avg", "GCutr_std", "r_GC3_GCutr", "r_expression_ENc", "r_expression_ENcP", "r_nReads_ENc", "r_nReads_ENcP")
 res = as.matrix(res, nrow=1)
 
 write.table(t(res), file = "output_final_2.txt", quote = F, sep = "\t", row.names = F, col.names = T)

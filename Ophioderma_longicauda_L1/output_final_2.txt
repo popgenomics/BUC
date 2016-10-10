@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Ophioderma_longicauda_L1	Ophioderma longicauda	13540	0.43638	0.04196	0.44351	0.0507	0.42211	0.06905	0.37383	0.0612	0.09961	0.00587	-0.06465
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Ophioderma_longicauda_L1	Ophioderma longicauda	13540	0.43638	0.04196	0.44351	0.0507	0.42211	0.06905	0.37383	0.0612	0.09961	0.00587	-0.06465	0.00654	-0.07997

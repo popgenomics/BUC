@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Ostreola_stentina	Ostrea stentina	3733	0.44135	0.04304	0.43788	0.04792	0.4483	0.08277	0.34809	0.07456	0.04352	-0.03423	-0.08424
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Ostreola_stentina	Ostrea stentina	3733	0.44135	0.04304	0.43788	0.04792	0.4483	0.08277	0.34809	0.07456	0.04352	-0.03423	-0.08424	-0.03241	-0.08842

@@ -1,0 +1,1 @@
+loci	pos	expression	Encp	pref	unpref	nPref	nUnpref

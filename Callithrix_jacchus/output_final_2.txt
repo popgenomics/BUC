@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Callithrix_jacchus	Callithrix jacchus	9439	0.47341	0.06293	0.46215	0.05201	0.496	0.13731	0.4286	0.0892	0.50855	-0.07923	-0.07806
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Callithrix_jacchus	Callithrix jacchus	9439	0.47341	0.06293	0.46215	0.05201	0.496	0.13731	0.4286	0.0892	0.50855	-0.07923	-0.07806	-0.09494	-0.09132

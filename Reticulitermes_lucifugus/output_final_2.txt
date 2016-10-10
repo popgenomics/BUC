@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Reticulitermes_lucifugus	Reticulitermes lucifugus	18613	0.44369	0.04712	0.45816	0.05288	0.4147	0.08508	0.36819	0.0577	0.20536	0.01521	-0.00285
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Reticulitermes_lucifugus	Reticulitermes lucifugus	18613	0.44369	0.04712	0.45816	0.05288	0.4147	0.08508	0.36819	0.0577	0.20536	0.01521	-0.00285	0.0137	0.00295

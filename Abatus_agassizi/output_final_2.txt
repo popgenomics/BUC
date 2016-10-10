@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Abatus_agassizi	Abatus agassizii	11031	0.49922	0.051	0.47193	0.04971	0.55387	0.11885	0.38055	0.07007	0.11161	-0.09169	-0.08639
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Abatus_agassizi	Abatus agassizii	11031	0.49922	0.051	0.47193	0.04971	0.55387	0.11885	0.38055	0.07007	0.11161	-0.09169	-0.08639	-0.09513	-0.08805

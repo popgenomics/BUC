@@ -1,2 +1,2 @@
-dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP
-Culex_torrentium	Culex torrentium	12258	0.54889	0.05504	0.47674	0.05257	0.69356	0.12134	0.40946	0.09405	0.22149	-0.13593	-0.15437
+dataset	NCBIname	nLoci	GCtot_avg	GCtot_std	GC12_avg	GC12_std	GC3_avg	GC3_std	GCutr_avg	GCutr_std	r_GC3_GCutr	r_expression_ENc	r_expression_ENcP	r_nReads_ENc	r_nReads_ENcP
+Culex_torrentium	Culex torrentium	12258	0.54889	0.05504	0.47674	0.05257	0.69356	0.12134	0.40946	0.09405	0.22149	-0.13593	-0.15437	-0.14641	-0.15536
